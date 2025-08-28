@@ -1,2 +1,71 @@
-# shool4
-Этот сайт сделан для учеников которых я обучаю
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выберете группу</title>
+</head>
+<body>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Roboto;
+        }
+        .navbar {
+        display: flex;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: black solid 2px;
+        }
+
+        .itschool {
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        }
+
+            .English {
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 250px;
+        padding-top: 50px;
+
+        }
+
+        .ul1 {
+        display: flex;
+        }
+
+        .div1 {
+        background-color: rgb(185, 185, 185);
+        border-radius: 50px;
+        margin-top: 200px;
+        margin-left: 500px;
+        margin-right: 500px;
+        }
+
+        .h2 {
+        padding-top: 50px;
+        padding-left: 160px;
+        }
+    </style>
+    <nav class="navbar">
+        <h1 class="h1">Дневник</h1>
+    </nav>
+    <div class="div1">
+      <h2 class="h2">Выберете группу</h2>
+      <ul class="ul1">
+        <a class="itschool" href="http://127.0.0.1:5500/it%20school/index.html">it school</a>
+        <a class="English" href="http://127.0.0.1:5500/English/index.html">English</a>
+    </ul>
+    </div>
+</body>
+</html>
